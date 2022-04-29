@@ -11,19 +11,19 @@
 
 .bg-left-half:before {
   position: absolute;
-  width: 50%;
+  width: 80%;
   height: 100%;
   z-index: -1;
   content: "";
   left: 0;
   top: 0;
 
-  background: rgba(255, 255, 255, 0.5);
+  /* background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.18); */
 
 }
 
