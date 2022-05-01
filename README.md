@@ -5,39 +5,55 @@
 ## Screenshots
 
 Home Screen 
+<hr>
 <img src="https://i.ibb.co/3r1X58y/Indexi-i-ri-dhe-i-vjeter.png" alt="Home Screen">
 
-Home Screen 
-<img src="https://i.ibb.co/3r1X58y/Indexi-i-ri-dhe-i-vjeter.png" alt="Home Screen">
+History Screen 
+<hr>
+<img src="https://i.ibb.co/dgM77fr/Historiku-i-ri-dhe-i-vjeter.png" alt="Home Screen">
 
-Home Screen 
-<img src="https://i.ibb.co/3r1X58y/Indexi-i-ri-dhe-i-vjeter.png" alt="Home Screen">
+Gallery Screen 
+<hr>
+<img src="https://i.ibb.co/HP4f2R7/Galeria-e-re-dhe-e-vjeter.png" alt="Home Screen">
 
-Home Screen 
-<img src="https://i.ibb.co/3r1X58y/Indexi-i-ri-dhe-i-vjeter.png" alt="Home Screen">
+Summer Restaurants 
+<hr>
+<img src="https://i.ibb.co/H4m8f3h/Restauranti-veror-i-ri-dhe-i-vjeter.png" alt="Home Screen">
 
-Home Screen 
-<img src="https://i.ibb.co/3r1X58y/Indexi-i-ri-dhe-i-vjeter.png" alt="Home Screen">
+Camps 
+<hr>
+<img src="https://i.ibb.co/TvzfjPz/Kampshtepiza-e-re-dhe-e-vjeter.png" alt="Home Screen">
 
-Home Screen 
-<img src="https://i.ibb.co/3r1X58y/Indexi-i-ri-dhe-i-vjeter.png" alt="Home Screen">
+Wedding room 
+<hr>
+<img src="https://i.ibb.co/7Yjphcn/Salla-e-re-dhe-e-vjeter.png" alt="Home Screen">
 
-Detail Screen           |  Empty
-:-------------------------:|:-------------------------:
-![](https://i.ibb.co/TT3vRh1/photo-2022-04-16-02-21-20.jpg)  |  
+Fish Pond
+<hr>
+<img src="https://i.ibb.co/8sdqKcW/Hurdha-e-re-dhe-e-vjeter.png" alt="Home Screen">
+
+Products from Trout Fish
+<hr>
+<img src="https://i.ibb.co/JrRZLP9/Produkti-i-ri-dhe-i-vjeter.png" alt="Home Screen">
+
+Fish Menu
+<hr>
+<img src="https://i.ibb.co/4WDy1G2/Menu-e-re-dhe-e-vjeter.png" alt="Home Screen">
+
+
 
 ## Installation
 
 Clone the project
 
 ```bash
-  git clone https://github.com/enisgjini/recipe.git
+  git clone https://github.com/enisgjini/trofta-website.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd recipe
+  cd trofta-website
 ```
 
 Open Visual Studio Code
