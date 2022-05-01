@@ -28,8 +28,7 @@
     <!-- Fav Icon -->
     <link rel="icon" type="image/x-icon" href="/assets/logo-trofta.gif">
 
-    <!--  CSS -->
-    <link rel="stylesheet" href="/css/galeria.css">
+
     <!-- CSS Integration -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -79,230 +78,90 @@
         </div>
     </nav>
 
-    <section class="ftco-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 text-center mb-5">
-                    <h2 class="heading-section">Contact Form #06</h2>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-12">
-                    <div class="wrapper">
-                        <div class="row no-gutters mb-5">
-                            <div class="col-md-7">
-                                <div class="contact-wrap w-100 p-md-5 p-4">
-                                    <h3 class="mb-4">Contact Us</h3>
-                                    <div id="form-message-warning" class="mb-4"></div>
-                                    <div id="form-message-success" class="mb-4">
-                                        Your message was sent, thank you!
-                                    </div>
-                                    <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="label" for="name">Full Name</label>
-                                                    <input type="text" class="form-control" name="name" id="name"
-                                                        placeholder="Name">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="label" for="email">Email Address</label>
-                                                    <input type="email" class="form-control" name="email" id="email"
-                                                        placeholder="Email">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label class="label" for="subject">Subject</label>
-                                                    <input type="text" class="form-control" name="subject" id="subject"
-                                                        placeholder="Subject">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label class="label" for="#">Message</label>
-                                                    <textarea name="message" class="form-control" id="message" cols="30"
-                                                        rows="4" placeholder="Message"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <input type="submit" value="Send Message" class="btn btn-primary">
-                                                    <div class="submitting"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-md-5 d-flex align-items-stretch">
-                                <div id="map">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-map-marker"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-phone"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-paper-plane"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="dbox w-100 text-center">
-                                    <div class="icon d-flex align-items-center justify-content-center">
-                                        <span class="fa fa-globe"></span>
-                                    </div>
-                                    <div class="text">
-                                        <p><span>Website</span> <a href="#">yoursite.com</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+    <div class="container mt-5">
+        <div class="row mt-5">
+            <div class="col-sm-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
-                </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-6">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1805.4661905505416!2d20.481286665011694!3d42.77986471720796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135319a47b22a385%3A0x31af70a73df48079!2sHotel%20TROFTA!5e1!3m2!1sen!2s!4v1651418649660!5m2!1sen!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="hurdhat mx-auto d-block" data-aos="fade-up"
+                    data-aos-duration="1750" data-aos-anchor-placement="top-bottom"></iframe>
             </div>
         </div>
-    </section>
-
-
-
-
-
+    </div>
     <!-- Footer | Start -->
-
     <footer class="footer-02 mt-5">
         <div class="container mt-5">
-            <div class="row justify-content-center">
-                <div class="col-10 col-lg-6">
-                    <div class="subscribe mb-5">
-                        <form action="#" class="subscribe-form">
-                            <div class="form-group d-flex">
-                                <input type="text" class="form-control rounded-left" placeholder="Enter email address">
-                                <input type="submit" value="Subscribe" class="form-control submit px-3">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-md-4 col-lg-5">
                     <div class="row">
                         <div class="col-md-12 col-lg-8 mb-md-0 mb-4">
-                            <h2 class="footer-heading"><a href="#" class="logo">Colorlib.com</a></h2>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary
-                                regelialia.</p>
-                            <a href="#">read more <span class="ion-ios-arrow-round-forward"></span></a>
+                            <h2 class="footer-heading"><a href="/index.html" class="logo">Hotel TROFTA</a></h2>
+                            <p>Mire se vini te Hotel TROFTA <br>
+                                Shijoni një destinacion te mrekullueshëm</p>
+
                         </div>
                     </div>
                 </div>
                 <div class="col-md-8 col-lg-7">
                     <div class="row">
-                        <div class="col-md-3 mb-md-0 mb-4 border-left">
-                            <h2 class="footer-heading">Discover</h2>
+                        <div class="col-md-6 mb-md-0 mb-4 border-left">
+                            <h2 class="footer-heading">Linqe te shpejta</h2>
                             <ul class="list-unstyled">
-                                <li><a href="#" class="py-1 d-block">Buy &amp; Sell</a></li>
-                                <li><a href="#" class="py-1 d-block">Merchant</a></li>
-                                <li><a href="#" class="py-1 d-block">Giving back</a></li>
-                                <li><a href="#" class="py-1 d-block">Help &amp; Support</a></li>
+                                <li><a href="/index.html" class="py-1 d-block">Hoteli</a></li>
+                                <li><a href="/historiku.html" class="py-1 d-block">Historiku</a></li>
+                                <li><a href="/galeria.html" class="py-1 d-block">Galeria</a></li>
+                                <li><a href="/kontakti.html" class="py-1 d-block">Kontakti</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 mb-md-0 mb-4 border-left">
-                            <h2 class="footer-heading">About</h2>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="py-1 d-block">Staff</a></li>
-                                <li><a href="#" class="py-1 d-block">Team</a></li>
-                                <li><a href="#" class="py-1 d-block">Careers</a></li>
-                                <li><a href="#" class="py-1 d-block">Blog</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 mb-md-0 mb-4 border-left">
-                            <h2 class="footer-heading">Resources</h2>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="py-1 d-block">Security</a></li>
-                                <li><a href="#" class="py-1 d-block">Global</a></li>
-                                <li><a href="#" class="py-1 d-block">Charts</a></li>
-                                <li><a href="#" class="py-1 d-block">Privacy</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 mb-md-0 mb-4 border-left">
+                        <div class="col-md-6 mb-md-0 mb-4 border-left">
                             <h2 class="footer-heading">Social</h2>
                             <ul class="list-unstyled">
-                                <li><a href="#" class="py-1 d-block">Facebook</a></li>
-                                <li><a href="#" class="py-1 d-block">Twitter</a></li>
-                                <li><a href="#" class="py-1 d-block">Instagram</a></li>
-                                <li><a href="#" class="py-1 d-block">Googleplus</a></li>
+                                <li><a href="https://www.facebook.com/trofta/" target="_blank"
+                                        class="py-1 d-block">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/hoteltrofta/" target="_blank"
+                                        class="py-1 d-block">Instagram</a>
+                                </li>
+                                <li><a href="mailto:hotel@trofta.eu?subject = Feedback&body = Message" target="_blank"
+                                        class="py-1 d-block">
+                                        Mail</a>
+                                </li>
+                                <li><a href="tel:045 120 104" target="_blank" class="py-1 d-block">
+                                        Phone</a>
+                                </li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row partner-wrap mt-5">
-                <div class="col-md-12">
-                    <div class="row align-items-center">
-                        <div class="col">
-                            <h3 class="mb-0">Our Partner:</h3>
-                        </div>
-                        <div class="col-md-9">
-                            <p class="partner-name mb-0">
-                                <a href="#"><span class="ion-logo-ionic mr-2"></span>Company 01</a>
-                                <a href="#"><span class="ion-logo-ionic mr-2"></span>Company 02</a>
-                                <a href="#"><span class="ion-logo-ionic mr-2"></span>Company 03</a>
-                                <a href="#"><span class="ion-logo-ionic mr-2"></span>Company 04</a>
-                                <a href="#"><span class="ion-logo-ionic mr-2"></span>Company 05</a>
-                                <a href="#"><span class="ion-logo-ionic mr-2"></span>Company 06</a>
-                            </p>
-                        </div>
-                        <div class="col text-md-right">
-                            <p class="mb-0"><a href="#" class="btn-custom">See All <span
-                                        class="ion-ios-arrow-round-forward"></span></a></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-md-6 col-lg-8">
+                <div class="col-md-12 col-lg-8">
 
                     <p class="copyright">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
-                        is made with <i class="ion-ios-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                            target="_blank">Colorlib.com</a>
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | Made by <i
+                            class="ion-ios-heart" aria-hidden="true"></i> by <a href="https://gjinienis.netlify.app/"
+                            target="_blank">Enis Gjini</a>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
-                </div>
-                <div class="col-md-6 col-lg-4 text-md-right">
-                    <p class="mb-0 list-unstyled">
-                        <a class="mr-md-3" href="#">Terms</a>
-                        <a class="mr-md-3" href="#">Privacy</a>
-                        <a class="mr-md-3" href="#">Compliances</a>
                     </p>
                 </div>
             </div>
