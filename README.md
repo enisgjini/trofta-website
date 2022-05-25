@@ -75,4 +75,5 @@ Please make sure to update tests as appropriate.
 ## License
 
 MIT ![](https://img.shields.io/apm/l/atomic-design-ui.svg?)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cde0fcfd-2998-4779-9c8d-ddd0eaf1874d/deploy-status)](https://app.netlify.com/sites/trofta/deploys)
 
